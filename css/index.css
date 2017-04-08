@@ -1,0 +1,209 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.header {
+  width: 100%;
+  height: 44px;
+  background-color: #fff; }
+  .header .title {
+    position: absolute;
+    right: 0;
+    left: 0;
+    line-height: 44px;
+    text-align: center;
+    font-size: 18px; }
+  .header .icon {
+    height: 100%;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    margin: 0 5px; }
+    .header .icon.left-icon {
+      float: left; }
+    .header .icon.right-icon {
+      float: right; }
+
+.container {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 44px;
+  bottom: 0; }
+  .container .swiper-slide {
+    width: 100%; }
+    .container .swiper-slide img {
+      width: 100%;
+      display: block; }
+  .container .tip {
+    font-size: 15px;
+    color: #4f99f2;
+    margin: 15px; }
+  .container section {
+    margin: 15px;
+    font-size: 14px; }
+    .container section h3 {
+      margin-bottom: 10px; }
+    .container section p {
+      line-height: 23px;
+      margin: 0 0 20px 15px; }
+
+.kayi {
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #4f99f2;
+  font-size: 17px; }
+
+.kayiimg img {
+  display: block;
+  margin: 0 auto 16px;
+  width: 50%; }
+
+.content-title {
+  line-height: 44px;
+  border-top: 1px #e5e5e5 solid;
+  border-bottom: 1px #eee solid;
+  padding-left: 15px;
+  color: #333;
+  font-size: 15px; }
+
+.varieties {
+  width: 100%;
+  display: -webkit-flex; }
+  .varieties div {
+    -webkit-flex: 1; }
+    .varieties div p {
+      text-align: center;
+      margin: 10px 0; }
+      .varieties div p:nth-child(2) {
+        color: #4f99f2; }
+    .varieties div ul {
+      font-size: 13px; }
+      .varieties div ul li {
+        text-align: center;
+        line-height: 21px; }
+
+.star {
+  margin: 0 15px;
+  font-size: 14px; }
+  .star dl {
+    width: 100%;
+    display: -webkit-flex;
+    margin: 15px 0; }
+    .star dl dt {
+      width: 80px; }
+      .star dl dt img {
+        width: 100%;
+        display: block; }
+    .star dl dd {
+      -webkit-flex: 1; }
+      .star dl dd p {
+        padding-left: 15px;
+        padding-top: 15px; }
+        .star dl dd p a {
+          text-decoration: underline;
+          color: #4f99f2; }
+  .star div p {
+    line-height: 32px; }
+    .star div p span {
+      margin-right: 15px; }
+  .star #allmap {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto; }
+
+.suyuan {
+  width: 100%;
+  text-align: center;
+  line-height: 32px;
+  color: #4f99f2; }
+  .suyuan .hei {
+    color: #999999; }
+
+.yuanliao {
+  width: 100%;
+  height: 256px; }
+  .yuanliao dl {
+    width: 50%;
+    float: left;
+    margin-top: 5px; }
+    .yuanliao dl dt img {
+      width: 50%;
+      display: block;
+      margin: auto; }
+    .yuanliao dl dd {
+      text-align: center;
+      line-height: 38px;
+      color: #4f99f2;
+      font-size: 13px; }
+
+.product {
+  width: 100%; }
+  .product p {
+    text-align: center; }
+  .product .jianjie {
+    color: #4f99f2;
+    line-height: 30px; }
+  .product img {
+    display: block;
+    margin: 0 auto 16px;
+    width: 50%; }
+  .product .jieshao {
+    border-top: 1px #ccc solid;
+    margin: 0 54px;
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 20px; }
+  .product .comp {
+    text-indent: 34px;
+    margin: 0 15px;
+    line-height: 22px; }
+  .product .flex {
+    width: 100%;
+    display: -webkit-flex; }
+    .product .flex p {
+      -webkit-flex: 1;
+      text-align: center;
+      line-height: 62px;
+      border-bottom: 1px #ccc solid;
+      font-size: 14px; }
+  .product ul li {
+    line-height: 60px;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    display: -webkit-flex; }
+    .product ul li h4 {
+      -webkit-flex: 1;
+      padding-left: 15px; }
+    .product ul li span {
+      margin-right: 15px; }
+  .product .qita {
+    line-height: 50px;
+    text-align: center;
+    color: #4f99f2; }
+
+.lengmian {
+  display: -webkit-flex;
+  margin: 0 15px; }
+  .lengmian dl {
+    -webkit-flex: 1;
+    margin: 0 5px; }
+    .lengmian dl dt {
+      width: 100%; }
+      .lengmian dl dt img {
+        width: 100%; }
+    .lengmian dl dd {
+      font-size: 12px;
+      margin-top: 10px;
+      line-height: 17px;
+      text-align: center; }
+      .lengmian dl dd .laststar i {
+        color: #4f99f2;
+        font-size: 14px; }
+        .lengmian dl dd .laststar i:last-child {
+          color: #999999; }
+
+/*# sourceMappingURL=index.css.map */
